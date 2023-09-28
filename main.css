@@ -1,0 +1,108 @@
+
+
+
+
+body{
+    font-family: fantasy;
+}
+.navCustom{
+    overflow: hidden;
+    background-color: #081B29;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0px; /* Position the navbar at the top of the page */
+    padding: 15px;
+    
+}
+.sahe{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.headname{
+    font-size: 65px;
+}
+.frontend{
+    font-size: 40px;
+    color: #70cfe6;
+}
+.backimg{
+    background-image: url(img/editimg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+    
+
+}
+.paragraph-text{
+    color: rgb(174, 166, 166)
+}
+.hirebt{
+    background-color: #70cfe6;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.hirebt:hover{
+   background-color: #3ca9b3
+   
+}
+.eduback{
+    background-color: #05263d;
+   
+}
+.customborder{
+    border: 2px solid #3ca9b3;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.skillbackground{
+    background-color: #081B29;
+    
+}
+.codframe{
+    border: 3px solid #3ca9b3;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+.codframe:hover{
+    background-color: #133437;
+    transform:translateY()
+    
+}
+
+.contacbg{
+    background-color: #081B29;
+    height: 100vh;
+    
+}
+
+.croselproject{
+    height: 100vh;
+    background-color: #05263d;
+}
+
+.ftrbg{
+    background-color: #05263d;
+}
+
+@media screen and (max-width: 768px){
+    .eduback{
+        background-color: #05263d;
+        
+    }
+}
+@media screen and (max-width: 768px){
+    .backimg{
+        
+        height: 120vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .sahe{
+        width: 50%;
+        font-size: 20% important; 
+        height: 50px;
+    }
+}
